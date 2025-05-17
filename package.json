@@ -1,0 +1,18 @@
+{
+  "name": "zeinbot",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@google/genai": "^0.14.1",
+    "@types/mustache": "^4.2.6",
+    "@vercel/node": "^5.1.16",
+    "mustache": "^4.2.0",
+    "telegraf": "^4.16.3"
+  }
+}
