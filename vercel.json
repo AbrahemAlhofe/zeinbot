@@ -1,11 +1,15 @@
 {
+  "version": 2,
+  "public": true,
   "rewrites": [
     {
-      "source": "/api/(.*)",
-      "destination": "/api"
+      "source": "/(.*)",
+      "destination": "api/index.js"
     }
   ],
-  "redirects": [
-    { "source": "/", "destination": "/api", "permanent": false }
-  ]
+  "functions": {
+    "api/index.js": {
+      "includeFiles": "instructions.md"
+    }
+  }
 }

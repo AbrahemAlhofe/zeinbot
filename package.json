@@ -12,6 +12,7 @@
     "@google/genai": "^0.14.1",
     "@types/mustache": "^4.2.6",
     "@vercel/node": "^5.1.16",
+    "hono": "^4.7.10",
     "mustache": "^4.2.0",
     "telegraf": "^4.16.3"
   }
